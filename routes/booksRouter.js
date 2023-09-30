@@ -151,7 +151,7 @@ router.delete('/:id', (req, res) => {
         res.json('ok')
     } else {
         res.status(404);
-        req.json('404 | Book not found')
+        res.json('404 | Book not found')
     }
 });
 
